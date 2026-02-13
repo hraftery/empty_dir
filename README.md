@@ -30,3 +30,4 @@ You're free to repeat this technique anywhere in the repository. As long as the 
 
 The `post-checkout` hook was selected because there is [no reliable solution](https://stackoverflow.com/a/5623947/3697870) for a post-pull hook. Checkout is a common, non-destructive action that is easy to expect of a user. The hook is also triggered by a `git clone`, so if you have a centralised git hook system like [shared-git-hooks](https://github.com/kilianc/shared-git-hooks), it can simply happen when the repository is first cloned.
 
+Further discussion on Stack Overflow: https://stackoverflow.com/a/79888529/3697870
