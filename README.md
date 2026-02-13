@@ -22,7 +22,7 @@ Assumedly, you want the empty directory as a starting point for something. So th
 1. The next time you or someone else pulls the repository, they'll get the directory with the placeholder.
 1. Simply execute `git checkout` to remove the placeholders.
     - To prevent untrusted code from executing, git requires the hook to be enabled first. [Since Git 2.9](https://stackoverflow.com/a/37861972/3697870), the easiest way to do that is by executing `git config core.hooksPath .githooks` in your working copy, before running `git checkout`. Alternatively one of the many shared git hook management techniques, like that enabled by [git-hooks](https://github.com/git-hooks/git-hooks), can be substituted.
-1. If you ever delete the directory, just pull again and it will return.
+1. If you ever delete the directory, just `git reset --hard` and it will return.
 
 ## Other notes
 
