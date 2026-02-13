@@ -1,2 +1,2 @@
-echo "Running post-merge"
+echo "Running post-checkout"
 find . -type f -name "gitkeep" -delete
