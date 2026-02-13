@@ -1,5 +1,7 @@
 # empty_dir
 
+**STATUS:** This demonstration was not successful, due to [no reliable solution](https://stackoverflow.com/a/5623947/3697870) for a post-pull hook.
+
 Somewhat [infamously](https://stackoverflow.com/q/115983/3697870), git does not track [empty directories](https://archive.kernel.org/oldwiki/git.wiki.kernel.org/index.php/GitFaq.html#Can_I_add_empty_directories.3F).
 
 The usual workaround is to put *something* in the directory, like a README file or an empty `.gitkeep` file. But sometimes, you really do want an empty folder.
