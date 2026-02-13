@@ -1,1 +1,3 @@
-This file will be deleted on pull, leaving you an empty dir.
+This file exists to ensure the enclosing directory is tracked by git.
+It is intended to be deleted by the post-checkout hook, as described here:
+https://github.com/hraftery/empty_dir
